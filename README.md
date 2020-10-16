@@ -1,5 +1,5 @@
 # ProG_game-
-# langage: Python 3.9.0
+# Langage: Python 3.9.0
 # Jeux Tactical RPG en tour par tour
 # Avec une Interface graphique en 2D
 # Jouable en Lan ou Wan de 2 à 4 joueur
