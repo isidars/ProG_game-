@@ -27,5 +27,5 @@ Nommage:<br>
 
 <a href="https://github.com/isidars/ProG_game-/blob/main/NewGame/objectif_prochaine_reunion.txt"> Prochaine objectif </a>
 
-#Code du jeu 
+# Code du jeu 
 <a href="https://github.com/isidars/ProG_game-/blob/main/NewGame/main.py"> Main.py </a>
