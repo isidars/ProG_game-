@@ -1,5 +1,4 @@
 #Fichier contenant tous les monstres et leur caracteristiques
-
 class Monster:
     name = "dragon"
     monster_life = 100
