@@ -3,7 +3,7 @@ Langage: Python 3.9.0
 Jeux Tactical RPG en tour par tour<br>
 Avec une Interface graphique en 3D<br>
 Jouable en Lan ou Wan de 2 à 4 joueur<br>
-1 niveaux contenant 2 monstres + 1 boss<br>
+1 niveau contenant 2 monstres + 1 boss<br>
 3 classes différentes jouable<br>
 
 
