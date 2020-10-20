@@ -1,0 +1,12 @@
+Univers : Medieval heroic Fantastic
+Gameplay :
+  - Tour par tour
+  - RPG (exp, objets, répartition de stats)
+  - Différentes classes (stats fixes)
+  - En réseau
+
+2D
+Plusieurs niveaux
+PNJ donneurs de quête
+Boss final: Dragon
+Création de perso simple (nom)
