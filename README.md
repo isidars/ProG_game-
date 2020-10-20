@@ -10,7 +10,7 @@ Jouable en Lan ou Wan de 2 à 4 joueur<br>
 
 instruction : <br>
 
-|-Dossier parent:<br>
+Dossier parent:<br>
 |    -    Dossier images<br>
 |         |     - Images<br>
 |    -    fichier main<br>
