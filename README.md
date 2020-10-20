@@ -1,25 +1,25 @@
 # ProG_game-
-Langage: Python 3.9.0
-Jeux Tactical RPG en tour par tour
-Avec une Interface graphique en 3D
-Jouable en Lan ou Wan de 2 à 4 joueur
-1 niveaux contenant 2 monstres + 1 boss
-3 classes différentes jouable
+Langage: Python 3.9.0 
+Jeux Tactical RPG en tour par tour<br>
+Avec une Interface graphique en 3D<br>
+Jouable en Lan ou Wan de 2 à 4 joueur<br>
+1 niveaux contenant 2 monstres + 1 boss<br>
+3 classes différentes jouable<br>
 
 
 
-instruction : 
+instruction : <br>
 
-|-Dossier parent:
-|    -    Dossier images
-|         |     - Images
-|    -    fichier main
-|    -    fichier classe
+|-Dossier parent:<br>
+|    -    Dossier images<br>
+|         |     - Images<br>
+|    -    fichier main<br>
+|    -    fichier classe<br><br>
 
-Nommage:
- Classe : 1er lettre de chaque mot en majuscule
+Nommage:<br>
+ Classe : 1er lettre de chaque mot en majuscule<br>
  
- Fonction : Commence par verbe
+ Fonction : Commence par verbe<br>
  
- Variable : Minuscule avec underscore(_) entre chaque mots
+ Variable : Minuscule avec underscore(_) entre chaque mots<br>
   
