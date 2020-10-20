@@ -23,6 +23,9 @@ Nommage:<br>
  
  Variable : Minuscule avec underscore(_) entre chaque mots<br>
   
-<a href="https://github.com/isidars/ProG_game-/blob/main/univers_gameplay.txt"> Gameplay </a>
+<a href="https://github.com/isidars/ProG_game-/blob/main/NewGame/univers_gameplay.txt"> Gameplay </a>
 
-<a href="https://github.com/isidars/ProG_game-/blob/main/objectif_prochaine_reunion.txt"> Prochaine objectif </a>
+<a href="https://github.com/isidars/ProG_game-/blob/main/NewGame/objectif_prochaine_reunion.txt"> Prochaine objectif </a>
+
+#Code du jeu 
+<a href="https://github.com/isidars/ProG_game-/blob/main/NewGame/main.py"> Main.py </a>
