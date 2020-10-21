@@ -1,32 +1,60 @@
 # Fichier contenant le code principal du jeu
-# On importe les class Monster et Personnage
-from NewGame.Monster import *
-from NewGame.Personnage import *
+# On importe les class Monster
+import time
+from Monster import Monster
 
 #On définit le nom du joueur
-print("Enchanté "+Personnage.perso_name+", ravie de te connaitre!\nCe n'est pas l'heure des présentation défend toi !")
+print("Bienvenue nouvel aventurier ! Euh... Comment tu t'appelles enfaite?")
+perso_name = input("Nom:")
+print("Enchanté "+perso_name+", ravie de te connaitre!\nEt Euh.... tu es quoi au juste?")
+perso_class=""
+while perso_class != "1" or perso_class != "2":
+    perso_class = input("Tapez le chiffre qui correspond a votre classe:\n1- Assassin.\n2- Paladin\n")
+    if perso_class == "1":
+        from Personnage import Assassin
+        print("Ah oui je vois tu es donc un "+ Assassin.perso_class+". Faut dire vu ton accoutrement je l'aurais jamais deviné!")
+        perso_life=Assassin.perso_life
+        perso_life_max=Assassin.perso_life_max
+        perso_attak=Assassin.perso_attak
+        perso_shield=Assassin.perso_shield
+        break
+    elif perso_class == "2":
+        from NewGame.Personnage import Paladin
+        print("Ah oui je vois tu es donc un "+ Paladin.perso_classe+". Faut dire vu ton accoutrement je l'aurais jamais deviné!")
+        perso_life=Paladin.perso_life
+        perso_life_max=Paladin.perso_life_max
+        perso_attak=Paladin.perso_attak
+        perso_shield=Paladin.perso_shield
+        break
+    else:
+        print("J'ai pas compris tu es quoi ?")
 
 #Le joueur est attaqué par un 1er monstre
+
+print("Eeh c'est quoi ce gros oiseaux qui vole vers nous? ")
+time.sleep(1)
+print("UN "+Monster.monster_name+"!!!! FUYEZ!!!!")
+time.sleep(1)
 print("Vous êtes attaqué par un monstre, c'est un "+Monster.monster_name+"!\nIl a "+str(Monster.monster_life)+" point de vie.\nBonne chance !\n")
-
+time.sleep(1)
 #tant que le joueur ou le monstre on de la vie le combat continue
-while Monster.monster_life > 0 and Personnage.perso_life > 0:
+while Monster.monster_life > 0 and perso_life > 0:
     #le monstre attaque en 1er
-    print("Le "+Monster.monster_name+" vous attaque ! Vous perdez "+str(Monster.monster_attak-Personnage.perso_shield)+" point de vie.")
-
+    print("Le "+Monster.monster_name+" vous attaque ! Vous perdez "+str(Monster.monster_attak-perso_shield)+" point de vie.")
+    
     #le joueur perd des point de vie
-    Personnage.perso_life = Personnage.perso_life - Monster.monster_attak + Personnage.perso_shield
+    perso_life = perso_life - Monster.monster_attak + perso_shield
 
     #Ce if c'est pour évité les valeur negative si le joueur meurt
-    if Personnage.perso_life < 0:
-        Personnage.perso_life = 0
+    if perso_life < 0:
+        perso_life = 0
 
     #on indique au joueur ou on en est dans les points de vie
-    print(Personnage.perso_name + ":" + str(Personnage.perso_life) + "/" + str(Personnage.perso_life_max) + " point de vie.")
+    print(perso_name + ":" + str(perso_life) + "/" + str(perso_life_max) + " point de vie.")
     print(Monster.monster_name+": "+str(Monster.monster_life)+"/"+str(Monster.monster_life_max)+" point de vie\n\n")
-
+    
     #à cette partie seul le joueur perd des point de vie donc si il est 0 on sort de la boucle
-    if Personnage.perso_life <= 0:
+    if perso_life <= 0:
         break
 
     #le joueur peux effectuer 2 actions, se soigner ou attaquer
@@ -35,33 +63,33 @@ while Monster.monster_life > 0 and Personnage.perso_life > 0:
 
     #Le joueur attaque le calcule est calculer (dégat=attaque-defense)
     if action == "1":
-        print("Vous attaquez le "+Monster.monster_name+". Vous infligez "+str(Personnage.perso_attak-Monster.monster_shield)+" dégats")
-        Monster.monster_life = Monster.monster_life - Personnage.perso_attak + Monster.monster_shield
+        print("Vous attaquez le "+Monster.monster_name+". Vous infligez "+str(perso_attak-Monster.monster_shield)+" dégats")
+        Monster.monster_life = Monster.monster_life - perso_attak + Monster.monster_shield
 
    #Le joueur se soigne en utilisant sa variable d'attaque(à modifié plus tard)
     elif action == "2":
-        print("Vous vous soignez de "+str(Personnage.perso_attak)+" point de vie")
-        Personnage.perso_life = Personnage.perso_life + Personnage.perso_attak
+        print("Vous vous soignez de "+str(perso_attak)+" point de vie")
+        perso_life = perso_life + perso_attak
 
         #si les point de vie du personnage ne peuvent pas depasser les point de vie max
-        if Personnage.perso_life > Personnage.perso_life_max:
-            Personnage.perso_life = Personnage.perso_life_max
+        if perso_life > perso_life_max:
+            perso_life = perso_life_max
 
    #Si le joueur ecris autre chose que "1" ou "2" il passe son tour
     else:
         print("En voulant faire quelque chose vous tombez par terre ! Vous ne pouvez rien faire !")
-
+    
     #Ce if c'est juste pour evitez une valeur negative quand on affiche les point de vie apres
-    if Personnage.perso_life < 0:
-        Personnage.perso_life = 0
+    if perso_life < 0:
+        perso_life = 0
     if Monster.monster_life < 0:
         Monster.monster_life = 0
     #On indique au joueur ou en sont les point de vie
-    print(Personnage.perso_name+": "+str(Personnage.perso_life)+"/"+str(Personnage.perso_life_max)+" pdv")
+    print(perso_name+": "+str(perso_life)+"/"+str(perso_life_max)+" pdv")
     print(Monster.monster_name+": "+str(Monster.monster_life)+"/"+str(Monster.monster_life_max)+" pdv\n\n")
-
+    
 #Si le joueur atteint 0 pdv il a perdu
-if Personnage.perso_life <= 0:
+if perso_life <= 0:
     print("NOOOON!!! Vous etes mort -_-\"")
 
 #Si le monstre atteint 0 pdv le joueur gagne
