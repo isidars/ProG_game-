@@ -29,3 +29,5 @@ Nommage:<br>
 
 # Code du jeu 
 <a href="https://github.com/isidars/ProG_game-/blob/main/NewGame/Main.py"> Main.py </a>
+<a href="https://github.com/isidars/ProG_game-/blob/branch_mino/NewGame/Monster.py> Monster.py </a>
+<a href="https://github.com/isidas*rs/ProG_game-/blob/branch_mino/NewGame/Personnage.py>Personnage.py</a>
