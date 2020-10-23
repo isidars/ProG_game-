@@ -1,0 +1,34 @@
+Classes : 
+Perso
+	#attributs
+	attaque
+	attaque_magique 
+	defense
+	defense_magique
+	vitesse
+	esquive
+	mana
+	liste_competences
+	liste_sorts
+	experience
+	niveau
+
+	#fonctions
+	attaquer()
+	utiliserObjet()
+
+Monstres:
+	#attributs
+	attaque
+	attaque_magique 
+	defense
+	defense_magique
+	vitesse
+	esquive
+	mana
+	liste_sorts
+
+	#fonctions
+	attaquer()
+	utiliserObjet()
+

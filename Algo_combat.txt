@@ -1,0 +1,19 @@
+#### Algo Combat ####
+boucle tour par tour :
+	test vitesse des perso 
+	{
+		classment de l'ordre d'action
+	}
+	boucle action des perso avec le classement 
+	{
+		si perso = joueur
+		{
+			demander choix d'action
+			effectuer action
+			si monstre mort
+			{
+				fin du combat
+			}
+
+		}
+	}
