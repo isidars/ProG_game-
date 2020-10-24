@@ -1,3 +1,124 @@
 Mino peut on appeler une fonction d'une autre class dans un autre fichier? Oui (Fichier.class.fonction(argument))
 
 Comment afficher une fenetre sans pygame.
+
+
+*******************************************
+Fichier: Main.py
+*******************************************
+
+On demande le nom du joueur
+le joueur entre son nom
+
+on demande la classe du joueur
+si le joueur tape n
+    c'est une classe(n)
+    l'equipier est donc la classe(n+x)
+
+si le joueur tape n+x
+    c'est une classe(n+x)
+    l'equipier est donc la classe(n)
+sinon
+    on repose la question
+
+1er combat
+tant que le joueur ou le monstre on encore des points de vie le combat continue
+
+    un monstre attaque
+        le joueur perd des points de vie
+
+    le joueur peut faire 3 actions
+        Si il tape 1 il attaque le monstre
+            alors le monstres perd de la vie
+        Si il tape 2 il se soigne
+            alors le joueur récupere des point de vie
+        si il tente une autre action
+            le joueur passe son tour
+
+    L'equipier peux faire 2 action
+        Si l'equipier choisi 1 il attaque le monstre
+            le monstre perd des point de vie
+        Si l'equipier choisi 2 il soigne le joueur
+            Le joueur est soigner de quelque point de vie
+
+    Si le joueur perd tous ces points de vie
+        Le combat est fini et le joueur à perdu
+        on demande au joueur si il veut réessayer
+        si il dit oui
+            Le joueur et le monstre recupere leur point de vie
+            le combat recommence
+        Si il dit non
+            Le jeux est fini.
+
+    Si le monstre perd tous ces points de vie
+        Le combat est fini le joueurs est recompensé par du loot et de l'or.
+
+*******************************
+Fichier : Monster.py
+*******************************
+On crée une classe contenant des monstres
+on définie les caractéristiques du monstres
+- son nom
+- ces points de vie
+- ces points de vie maximum
+- son attaque
+- son attaque magique
+- sa defense
+- sa defense magique
+- sa vitesse
+- son esquive
+
+*********************************
+Fichier: Personnage.py
+*********************************
+On créer les class contenant les différent roles des personnage
+on définie les caractéristique des personnages
+- son role
+- ces points de vie
+- ces points de vie maximum
+- son attaque
+- son attaque magique
+- sa defense
+- sa defense magique
+- sa vitesse
+- son esquive
+************************************
+Algorithme de combat:
+on determine qui commence le combat
+
+Quand le joueur joue
+    le joueur joue il a plusieurs choix
+    si il choisi 1
+        il choisi sa cible et attaque avec son arme.
+        les armes tape moins fort que les sorts et peuvent etre esquivé mais n'ont pas de temps de relance ils utilisent les dommages physique
+    si il choisi 2
+        il choisi un sort entre 4 maximum, choisi sa cible et lance le sort.
+            Les sorts tape plus fort, peuvent donner des bonus de defense/attaque, ou soigner. ils ont un temps de relance définie et utilise les dommages magiques
+    Si il choisi 3
+        il peut choisir un objet dans son inventaire, choisir sa cible et utilisé l'objet
+        Les objets peuvent soigné, ressucité un joueur, ajouter des bonus d'attaque ou de défense.
+
+Quand le monstre attaque
+    le monstre a plusieur choix
+        Si le monstre fait une attaque physique
+            si l'esquive du joueur est suffisament elevé
+                Le joueur a une chance d'eviter l'attaque
+            Si le joueur reçoit le coup
+                Le joueur perd des points de vie mais reduit les dommage en fonction de sa defense physique
+        Si le monstre lance un sort
+            Il peux y avoir plusieur sort
+                un sort d'attaque
+                    Si l'esquive du joueur est elevé
+                        Le joueur peut esquiver l'attaque mais les sorts sont plus difficile à esquiver
+                    Si le joueur encaisse le sort
+                        Le joueur pert des points de vie reduit les dommage en fonction de sa defense physique
+                        Le sort fait des dommages magique généralement plus puissant que les attaque physique
+                        certains sort peuvent donner des handicaps au joueur
+                un sort de boost
+                    Le monstre augmente son attaque/defense/attaque magique/defense magique/esquive/vitesse
+                un sort de soin
+                    Le monstre regagne des points vie
+                un sort de malus
+                    Le monstre donne un malus d'attaque/defense/attaque magique/defense magique/esquive/vitesse au joueur
+        Les sorts un temps de relance
+
