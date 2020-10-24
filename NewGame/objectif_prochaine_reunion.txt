@@ -15,3 +15,74 @@ Exemple UML de classe :
 |        Attaquer()                      |
 |        UtiliserObjet()                 |
 ------------------------------------------
+
+*******************************************
+Fichier: Main.py
+*******************************************
+
+On demande le nom du joueur
+le joueur entre son nom
+
+on demande la classe du joueur
+si le joueur tape 1
+    le joueur c'est un assassin
+    l'équipier est un paladin
+si le joueur tape 2
+    c'est un Paladin
+    l'equipier est un assassin
+sinon
+    on repose la question
+
+1er combat
+tant que le joueur ou le dragon on encore des points de vie le combat continue
+
+    un dragon attaque
+        le joueur perd des points de vie
+
+    le joueur peut faire 3 actions
+        Si il tape 1 il attaque le monstre
+            alors le monstres perd de la vie
+        Si il tape 2 il se soigne
+            alors le joueur récupere des point de vie
+        si il tente une autre action
+            le joueur passe son tour
+
+    L'equipier peux faire 2 action
+        Si l'equipier choisi 1 il attaque le monstre
+            le monstre perd des point de vie
+        Si l'equipier choisi 2 il soigne le joueur
+            Le joueur est soigner de quelque point de vie
+
+    Si le joueur perd tous ces points de vie
+        Le combat est fini et le joueur à perdu
+        on demande au joueur si il veut réessayer
+        si il dit oui
+            Le joueur et le monstre recupere leur point de vie
+            le combat recommence
+        Si il dit non
+            Le jeux est fini.
+
+    Si le monstre perd tous ces points de vie
+        Le combat est fini le joueurs est recompensé par du loot et de l'or.
+
+*******************************
+Fichier : Monster.py
+*******************************
+On crée une classe contenant des monstres
+on définie les caractéristiques du monstres
+- son nom
+- ces points de vie
+- ces points de vie maximum
+- sa force
+- sa defense
+
+*********************************
+Fichier: Personnage.py
+*********************************
+On créer les class contenant les différent roles des personnage
+on définie les caractéristique des personnages
+- son role
+- ces points de vie
+- ces points de vie maximum
+- sa force
+- sa defense
