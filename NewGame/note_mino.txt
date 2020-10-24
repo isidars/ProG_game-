@@ -1,0 +1,3 @@
+Mino peut on appeler une fonction d'une autre class dans un autre fichier? Oui (Fichier.class.fonction(argument))
+
+Comment afficher une fenetre sans pygame.
