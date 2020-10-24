@@ -24,19 +24,20 @@ On demande le nom du joueur
 le joueur entre son nom
 
 on demande la classe du joueur
-si le joueur tape 1
-    le joueur c'est un assassin
-    l'équipier est un paladin
-si le joueur tape 2
-    c'est un Paladin
-    l'equipier est un assassin
+si le joueur tape n
+    c'est une classe(n)
+    l'equipier est donc la classe(n+x)
+
+si le joueur tape n+x
+    c'est une classe(n+x)
+    l'equipier est donc la classe(n)
 sinon
     on repose la question
 
 1er combat
-tant que le joueur ou le dragon on encore des points de vie le combat continue
+tant que le joueur ou le monstre on encore des points de vie le combat continue
 
-    un dragon attaque
+    un monstre attaque
         le joueur perd des points de vie
 
     le joueur peut faire 3 actions
@@ -75,6 +76,7 @@ on définie les caractéristiques du monstres
 - ces points de vie maximum
 - sa force
 - sa defense
+- sa vitesse
 
 *********************************
 Fichier: Personnage.py
@@ -86,3 +88,4 @@ on définie les caractéristique des personnages
 - ces points de vie maximum
 - sa force
 - sa defense
+- sa vitesse

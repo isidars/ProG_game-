@@ -99,6 +99,7 @@ while rejouer != "2":
             if perso_life > perso_life_max:
                 perso_life = perso_life_max
 
+
        #Si le joueur ecris autre chose que "1" ou "2" il passe son tour
         else:
             print("En voulant faire quelque chose vous tombez par terre ! Vous ne pouvez rien faire !")
