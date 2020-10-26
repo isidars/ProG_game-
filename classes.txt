@@ -1,0 +1,31 @@
+Classes :
+
+Tank :
+			HP   100
+			ATK  050
+			END  075
+			MP   075
+			ATKM 050
+			
+DPS_CAC :
+			HP   075
+			ATK  075
+			END  100
+			MP   050
+			ATKM 025
+			
+DPS_MAG :
+			HP   025
+			ATK  025
+			END  075
+			MP   075
+			ATKM 100			
+			
+Healer :
+			HP   075
+			ATK  025
+			END  075
+			MP   100
+			ATKM 050
+			
+			
