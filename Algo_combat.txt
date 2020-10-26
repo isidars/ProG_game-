@@ -2,18 +2,59 @@
 boucle tour par tour :
 	test vitesse des perso 
 	{
-		classment de l'ordre d'action
+		classement de l'ordre d'action
 	}
 	boucle action des perso avec le classement 
 	{
 		si perso = joueur
 		{
-			demander choix d'action
+			demander choix d'action :
+			action = attaquer
+			{
+				choisir cible
+				attaque(cible)
+			}
+			action = utiliser Objet
+			{
+				choix objet
+				appliquer effet objet
+			}
+			action = utiliser magie
+			{
+				choix magie
+				appliquer effet magie
+			}
 			effectuer action
 			si monstre mort
 			{
 				fin du combat
 			}
 
+		}
+		si perso = monstre
+		{
+			si HP < 25% & action soin existe
+			{
+				action soin
+			}
+			si joueur1.hp != 0 & joueur2.hp != 0
+			{
+				si joueur1.hp <= joueur2.hp
+				{
+					attaque(joueur1)
+				}
+				sinon
+				{
+					attaque(joueur2)
+				}
+			}
+			sinon si joueur1.hp = 0
+			{
+				attaque(joueur2)
+			}
+			sinon si joueur2.hp = 0
+			{
+				attaque(joueur1)
+			}
 		}
 	}

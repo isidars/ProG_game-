@@ -1,6 +1,9 @@
 Classes : 
 Perso
 	#attributs
+	Type
+	Nom
+	pv
 	attaque
 	attaque_magique 
 	defense
@@ -8,8 +11,8 @@ Perso
 	vitesse
 	esquive
 	mana
-	liste_competences
-	liste_sorts
+	liste_competences(attaquer,magie,objets)
+	liste_sorts(feu,foudre,eau,soin)
 	experience
 	niveau
 
@@ -17,18 +20,11 @@ Perso
 	attaquer()
 	utiliserObjet()
 
-Monstres:
+Objets:
 	#attributs
-	attaque
-	attaque_magique 
-	defense
-	defense_magique
-	vitesse
-	esquive
-	mana
-	liste_sorts
+	Type
+	Nom
+	effet
 
 	#fonctions
-	attaquer()
-	utiliserObjet()
-
+	appliquerEffet()
