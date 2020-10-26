@@ -1,0 +1,43 @@
+Combat :
+
+Tour par tour
+
+	Début combat
+	
+		Premier tour
+		
+			Premier perso ou mob
+				Débuter - commence le personnage qui a le plus de vitesse (mob ou joueur)
+				Choisir - une attaque parmi celles connues ou un objet
+				Attaquer / Utiliser - porte le coup jusqu'à l'ennemi / utilisation de l'objet choisi précédemment
+			
+			X perso ou mob
+				Débuter - selectionne auto le personnage qui a le plus de vitesse (mob ou joueur)
+				Défendre - reçoit une attaque
+				Choisir - une attaque parmi celles connues ou un objet
+				Attaquer / Utiliser - porte le coup jusqu'à l'ennemi / utilisation de l'objet choisi précédemment
+			
+			Dernier perso ou mob			
+				Débuter - selectionne auto le personnage qui a le plus de vitesse (mob ou joueur)
+				Défendre - reçoit une attaque
+				Choisir - une attaque parmi celles connues ou un objet
+				Attaquer / Utiliser - porte le coup jusqu'à l'ennemi / utilisation de l'objet choisi précédemment
+		
+		Fin Premier tour		
+		
+		X tour
+		
+			Comme pour le premier tour
+		
+		Fin X tour
+				
+		Dernier tour
+		
+			Comme pour le premier tour jusqu'à ce qu'il n'y est plus perso / mob en vie
+			
+		Fin Dernier tour
+		
+	Fin combat	
+			
+
+	
