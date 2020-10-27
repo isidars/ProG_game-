@@ -4,12 +4,14 @@ force
 stamina
 précision
 vitesse
-résistance
+résistance PHY
+Résistance MAG
 magie
+critique
 
 #Déclaration des différentes classes
-tank -> vie+ & résistance+
-mage -> magie+
-assassin -> vitesse+ & force+
-archer
-guerrier
+tank -> vie+ & résistances+ & vitesse-
+mage -> magie+ & ResMAG+
+assassin -> vitesse+ & crit+
+archer -> vitesse+ & précision+ & vie-
+guerrier -> force+ & stamina+
