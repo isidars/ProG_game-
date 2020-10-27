@@ -1,4 +1,4 @@
-#Déclaration des variables
+#Déclaration des stats
 vie
 force
 stamina
@@ -15,3 +15,4 @@ mage -> magie+ & ResMAG+
 assassin -> vitesse+ & crit+
 archer -> vitesse+ & précision+ & vie-
 guerrier -> force+ & stamina+
+bard -> magie+ précision+ vie+
