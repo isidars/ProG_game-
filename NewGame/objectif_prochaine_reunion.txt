@@ -1,17 +1,26 @@
-############## Préparation de la prochaine réunion #####################
-Créer l'algorithmie du combat entre 2perso joueurs contre un monstre
-Pas de code encore pour le moment ^^
-L'affichage se fera en ligne de commande
+REUNION DU 27/10/2020:
+**********************************************************************************
+############## Préparation de la prochaine réunion #####################**********
+Créer l'algorithmie du combat entre 2perso joueurs contre un monstre    **********
+Pas de code encore pour le moment ^^                                    **********
+L'affichage se fera en ligne de commande                                **********
+                                                                        **********
+Exemple UML de classe :                                                 **********
+------------------------------------------                              **********
+|               Perso                    |                              **********
+------------------------------------------                              **********
+|       Attributs                        |                              **********
+|         Atq                            |                              **********
+|         Def                            |                              **********
+|                                        |                              **********
+|       Fontions                         |                              **********
+|        Attaquer()                      |                              **********
+|        UtiliserObjet()                 |                              **********
+------------------------------------------                              **********
+**********************************************************************************
 
-Exemple UML de classe :
-------------------------------------------
-|               Perso                    |
-------------------------------------------
-|       Attributs                        |
-|         Atq                            |
-|         Def                            |
-|                                        |
-|       Fontions                         |
-|        Attaquer()                      |
-|        UtiliserObjet()                 |
-------------------------------------------
+Objectif  03/11/2020
+
+- creer les classes
+- creer un personnage
+- commencer un algorithme de combat en fonction des classes et des personnages.
