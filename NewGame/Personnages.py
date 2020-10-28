@@ -2,7 +2,7 @@
 
 class Normal:
     Nom = "Normal"
-    decription = ""
+    decription = "Vous êtes un quelqu'un de banal, bon en rien. \nL'avantage c'est que vous êtes nul en rien non plus... \nMais bon personne ne fait attention vu que vous êtes personne"
     pv = 100
     pm = 100
     endurance = 100

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/branch_mino" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be5aacaf-4997-4d57-897e-c92503412205" name="Default Changelist" comment="Ajouts class">
+      <change beforePath="$PROJECT_DIR$/NewGame/Competences.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewGame/Competences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewGame/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewGame/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewGame/Monsters.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewGame/Monsters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewGame/Objets.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewGame/Objets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewGame/Personnages.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewGame/Personnages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewGame/Sorts.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewGame/Sorts.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="117179ea-fda4-4c51-bb53-23525bbb6b7e" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NewGame/Main.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1j9RIbaJSRuIMWa3x8S5jY8OGQ1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NewGame/Personnage.py" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Monster" type="PythonConfigurationType" factoryName="Python">
+      <module name="ProG_game-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Mynno\AppData\Local\Microsoft\WindowsApps\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NewGame" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NewGame/Monster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="ProG_game-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Mynno\AppData\Local\Microsoft\WindowsApps\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NewGame" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NewGame/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="personnage" type="PythonConfigurationType" factoryName="Python">
+      <module name="ProG_game-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Mynno\AppData\Local\Microsoft\WindowsApps\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NewGame" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NewGame/Personnage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Monster" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.personnage" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be5aacaf-4997-4d57-897e-c92503412205" name="Default Changelist" comment="" />
+      <created>1603214242769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603214242769</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1ere ligne de code">
+      <created>1603215557964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603215557964</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Nouvelle class de monstre avec un monstre test &quot;dragon&quot;&#10;et import de la classe dans le fichier Main.py">
+      <created>1603224548011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603224548011</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Nouvelle class de monstre avec un monstre test &quot;dragon&quot;&#10;et import de la classe dans le fichier Main.py">
+      <created>1603224871547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603224871547</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creation de la class Personnage.&#10;1er combat avec un systeme de 2 choix : - attaquer ou se soigner.">
+      <created>1603292599255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603292599255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creation de la class Personnage.&#10;1er combat avec un systeme de 2 choix : - attaquer ou se soigner.">
+      <created>1603293713202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603293713202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creation d'une classe tank et d'une classe assassin">
+      <created>1603300734756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603300734756</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ecriture de l'algorithme actuelle du code deja en place:&#10;- creation du joueur&#10;- creation du bot equipier&#10;- creation du bot monstre&#10;- 1er combat:&#10;     - tour par tour&#10;     - attaque ou soin pour le joueur ou l'equipier&#10;rejouable si echec">
+      <created>1603529358410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603529358410</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ecriture de l'algorithme actuelle du code deja en place:&#10;- creation du joueur&#10;- creation du bot equipier&#10;- creation du bot monstre&#10;- 1er combat:&#10;     - tour par tour&#10;     - attaque ou soin pour le joueur ou l'equipier&#10;rejouable si echec&#10;- Le jeu est jouable avec un durée de vie minimum de 30 secondes">
+      <created>1603530134292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603530134292</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ecriture de l'algorithme actuelle du code deja en place:&#10;- creation du joueur&#10;- creation du bot equipier&#10;- creation du bot monstre&#10;- 1er combat:&#10;     - tour par tour&#10;     - attaque ou soin pour le joueur ou l'equipier&#10;rejouable si echec&#10;- Le jeu est jouable avec un durée de vie minimum de 30 secondes">
+      <created>1603531480203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603531480203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ecriture de l'algorithme actuelle du code deja en place:&#10;- creation du joueur&#10;- creation du bot equipier&#10;- creation du bot monstre&#10;- 1er combat:&#10;     - tour par tour&#10;     - attaque ou soin pour le joueur ou l'equipier&#10;rejouable si echec&#10;- Le jeu est jouable avec un durée de vie minimum de 30 secondes">
+      <created>1603531495761</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603531495761</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modification de l'algorithme des combats &#10;Prochaine mission rajouter des fonctions !!!">
+      <created>1603566605439</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603566605439</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ajouts class">
+      <created>1603878721474</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603878721474</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1603879623066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603879623066</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/branch_mino" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1ere ligne de code" />
+    <MESSAGE value="Nouvelle class de monstre avec un monstre test &quot;dragon&quot;&#10;et import de la classe dans le fichier Main.py" />
+    <MESSAGE value="Creation de la class Personnage.&#10;1er combat avec un systeme de 2 choix : - attaquer ou se soigner." />
+    <MESSAGE value="creation d'une classe tank et d'une classe assassin" />
+    <MESSAGE value="Ecriture de l'algorithme actuelle du code deja en place:&#10;- creation du joueur&#10;- creation du bot equipier&#10;- creation du bot monstre&#10;- 1er combat:&#10;     - tour par tour&#10;     - attaque ou soin pour le joueur ou l'equipier&#10;rejouable si echec" />
+    <MESSAGE value="Ecriture de l'algorithme actuelle du code deja en place:&#10;- creation du joueur&#10;- creation du bot equipier&#10;- creation du bot monstre&#10;- 1er combat:&#10;     - tour par tour&#10;     - attaque ou soin pour le joueur ou l'equipier&#10;rejouable si echec&#10;- Le jeu est jouable avec un durée de vie minimum de 30 secondes" />
+    <MESSAGE value="Modification de l'algorithme des combats &#10;Prochaine mission rajouter des fonctions !!!" />
+    <MESSAGE value="Ajouts class" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1603223510852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1603223510852" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1603274180602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1603274180602" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603274740450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603274740450" />
+    <state x="773" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603878395064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="773" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603878395064" />
+    <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603879744964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1603879744964" />
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1603529736259">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603529736259" />
+    <state width="1367" height="672" key="GridCell.Tab.0.bottom" timestamp="1603736386747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="672" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603736386747" />
+    <state width="1367" height="672" key="GridCell.Tab.0.center" timestamp="1603736386747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="672" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603736386747" />
+    <state width="1367" height="672" key="GridCell.Tab.0.left" timestamp="1603736386747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="672" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603736386747" />
+    <state width="1367" height="672" key="GridCell.Tab.0.right" timestamp="1603736386747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="672" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603736386747" />
+    <state width="1345" height="159" key="GridCell.Tab.1.bottom" timestamp="1603482701998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603482701998" />
+    <state width="1345" height="159" key="GridCell.Tab.1.center" timestamp="1603482701998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603482701998" />
+    <state width="1345" height="159" key="GridCell.Tab.1.left" timestamp="1603482701998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603482701998" />
+    <state width="1345" height="159" key="GridCell.Tab.1.right" timestamp="1603482701998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603482701998" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1603531470110">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603531470110" />
+    <state x="278" y="208" key="VCS.EditChangelistDialog" timestamp="1603529705803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="208" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603529705803" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603879629623">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603879629623" />
+    <state x="293" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603832270037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="293" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1603832270037" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603215171759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603215171759" />
+    <state x="44" y="7" width="672" height="678" key="search.everywhere.popup" timestamp="1603879342804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="44" y="7" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603879342804" />
+  </component>
+</project>
