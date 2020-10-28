@@ -1,11 +1,12 @@
 class BouleDeFeu:
-    nom=""
-    description=""
-    effet=""
-    cout_pm=""
+    nom = ""
+    description = ""
+    effet = ""
+    cout_pm = ""
+
 
 class Soin:
-    nom=""
-    description=""
-    effet=""
-    cout_pm=""
+    nom = ""
+    description = ""
+    effet = ""
+    cout_pm = ""
