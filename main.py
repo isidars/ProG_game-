@@ -1,7 +1,11 @@
 from Fonction import *
 from Joueur import *
-joueur = Joueur()
+from Monstre import *
+mob =""
 nom =""
+choix_role =10
+joueur = Joueur(name=nom, role="x")
+
 
 print("Bonjour, jeune homme. Tu viens d'arrivé ?")
 nom = choix_nom()
@@ -13,26 +17,39 @@ while verification_nom == "Non" or verification_nom == "non":
 
 
 print("D'accord, et quel type de combattant est-tu étranger ?")
-choix_role = input("""1. Tank;
+print("""
+1. Tank;
 2. Archer;
 3. Guerrier;
 4. Mage Blanc;
 5. Mage Noir;
-6. Assassin; \n""")
+6. Assassin;
+""")
 
-if choix_role==1:
-    joueur = Joueur(name=nom)
-elif choix_role==2:
-    joueur = Archer(name=nom)
-elif choix_role==3:
-    joueur = Joueur(name=nom)
-elif choix_role==4:
-    joueur = Joueur(name=nom)
-elif choix_role==5:
-    joueur = Joueur(name=nom)
-elif choix_role==6:
-    joueur = Joueur(name=nom)
+while choix_role > 6:
+    try:
+        choix_role = int(input())
+    except ValueError:
+        print("Vous n'avez pas entrée le bonne indice de rôle")
 
 
-print()
+if choix_role == 1:
+    joueur = Tank(name=nom)
+elif choix_role == 2:
+    joueur = Archer(nom)
+elif choix_role == 3:
+    joueur = Guerrier(name=nom)
+elif choix_role == 4:
+    joueur = MageBlanc(name=nom)
+elif choix_role == 5:
+    joueur = MageNoir(name=nom)
+elif choix_role == 6:
+    joueur = Assassin(name=nom)
+
+
+print("Tu est donc '" + joueur.classe + "'. Tu rencontre un mob attention ! Ils sont très dangereux")
+mob = Troll()
+
+print(mob.pv-joueur.atk_phy)
+
 

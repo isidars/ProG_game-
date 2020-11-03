@@ -2,7 +2,7 @@ import random
 
 class Joueur:
     '''Classe mére de l'objet joueur'''
-    def __init__(self,name,role):
+    def __init__(self, name, role):
         self.name = name
         self.classe = role
         self.etat = "Normal"
@@ -19,7 +19,6 @@ class Joueur:
         self.crit=0
         self.exp = 0
         self.lvl = 1
-        self.order = 1
 
         def _get_name(self):
             return self._name
@@ -31,7 +30,7 @@ class Joueur:
 class Archer(Joueur):
     ''' Classe héritée de Joueur
 	Initialise les stats spécifique au role Archer '''
-    def __init__(self,name,role="Archer"):
+    def __init__(self, name, role="Archer"):
         Joueur.__init__(self, name, role)
         self.pv= 100
         self.pm= 50
