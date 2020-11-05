@@ -1,0 +1,103 @@
+gameplay combat
+	
+	Les personnages commencent avec des points (21) à attribuer dans les Caractéristiques suivantes :
+	
+		- Force
+		- Perception
+		- Endurance
+		- Charisme
+		- Intelligence
+		- Agilité
+		- Chance
+		
+		
+		Les Caractéristiques de base sont à 1 et peuvent être montées au maximum à 10 en attribution manuelle. Et à 15 si objets ou sorts.
+		Les Monstres ont des Pattern de Caractéristiques en fonction de leurs Rôles (note: un Monstre Archer aura du coup sa Perception à 9 ou 10).
+		
+	
+	En règle générale, on peut dire que :
+		
+		- Force augmente l'Attaque Physique et le nombre de slot dans l'Inventaire
+		- Perception augmente la Précision et la Vision sur les Monstres (si échiquier sur le terrain de combat)
+		- Endurance augmente les PV et la Défense Physique
+		- Charisme augmente le Loot gagné à la fin d'un combat
+		- Intelligence augmente L'Attaque Magique, les PM, la Défense Magique et l'EXP gagnée à la fin d'un combat
+		- Agilité augmente la Vitesse et l'Esquive
+		- Chance augmente le taux de Coups Critique
+		
+		
+	Chaques Personnages et Monstres ont comme Statistiques de Base :
+	
+		- PV = 100 
+        - PM = 100
+        - Endurance = 10
+        - Att. Physique = 10
+        - Def. = 10
+        - Att. Magique = 10
+        - Def.M = 10
+        - Vitesse = 10
+        - Precision = 10
+        - Esquive = 10
+        - Experience = 0
+        - Niveau = 1
+		
+		
+		Les Points de Vie sont calculés en fonction de l'Endurance.
+		Une base de 100 pour tout le monde (+10 par points supplémentaire en Endurance).
+	
+		Les Points de Mana sont calculées en fonction de l'Intelligence.
+		Une base de 100 pour tout le monde (+10 par points supplémentaire en Intelligence).
+		
+		Les autres Statistiques ont une base de 10 et sont calculés en fonction des Caractéristiques (+10 par points).
+		
+		
+	Exemple :
+	
+		Kevin = Guerrier
+		- Force = 9
+		- Perception = 2
+		- Endurance = 4
+		- Charisme = 1
+		- Intelligence = 1
+		- Agilité = 2
+		- Chance = 2
+		
+		- PV = 140 
+        - PM = 100
+        - Endurance = 50
+        - Att. Physique = 100
+        - Def. = 50
+        - Att. Magique = 10
+        - Def.M = 10
+        - Vitesse = 20
+        - Precision = 20
+        - Esquive = 20
+        - Experience = 0
+        - Niveau = 1
+		
+		Monstre = Archer
+		- Force = 2
+		- Perception = 9
+		- Endurance = 2
+		- Charisme = 1
+		- Intelligence = 1
+		- Agilité = 5
+		- Chance = 1
+		
+		- PV = 110 
+        - PM = 100
+        - Endurance = 20
+        - Att. Physique = 20
+        - Def. = 20
+        - Att. Magique = 10
+        - Def.M = 10
+        - Vitesse = 60
+        - Precision = 100
+        - Esquive = 60
+        - Experience = 0
+        - Niveau = 1
+		
+		Le Monstre commence le tour car il a plus de Vitesse que le Guerrier.
+		Le Guerrier à 20% de chance d'Esquive les Attaques du Monstre.
+		Le Guerrier divise par 2,5 les dégâts reçus par le Monstre.
+		Etc.
