@@ -4,14 +4,14 @@ from Monstre import *
 mob =""
 nom =""
 choix_role =10
-joueur = Joueur(name=nom, role="x")
+joueur = Joueur(name=nom, role=choix_role)
 
 
 print("Bonjour, jeune homme. Tu viens d'arrivé ?")
 nom = choix_nom()
 verification_nom = verif_nom(nom)
 
-while verification_nom == "Non" or verification_nom == "non":
+while verification_nom.lower() == "non":
     nom = choix_nom()
     verif_nom = verif_nom(nom)
 
@@ -34,22 +34,22 @@ while choix_role > 6:
 
 
 if choix_role == 1:
-    joueur = Tank(name=nom)
+    joueur = Tank(nom)
 elif choix_role == 2:
     joueur = Archer(nom)
 elif choix_role == 3:
-    joueur = Guerrier(name=nom)
+    joueur = Guerrier(nom)
 elif choix_role == 4:
-    joueur = MageBlanc(name=nom)
+    joueur = MageBlanc(nom)
 elif choix_role == 5:
-    joueur = MageNoir(name=nom)
+    joueur = MageNoir(nom)
 elif choix_role == 6:
-    joueur = Assassin(name=nom)
+    joueur = Assassin(nom)
 
 
 print("Tu est donc '" + joueur.classe + "'. Tu rencontre un mob attention ! Ils sont très dangereux")
 mob = Troll()
 
-print(mob.pv-joueur.atk_phy)
+combat(joueur, mob)
 
 

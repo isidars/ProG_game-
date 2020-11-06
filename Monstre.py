@@ -2,15 +2,15 @@
 #		Nom
 #		pv
 #		pm
-#		endurance
+#		enduranceurance
 #		attaque
-#		attaque.magique
+#		attaque.magiqueique
 #		defense
-#		defense.magique
-#		vitesse
+#		defense.magiqueique
+#		vitesseesse
 #		présicion
 #		esquive
-#		taux.critique
+#		taux.critiqueique
 #		état(normal,empoissoné,paralysé,brulé)
 #		niveau
 #		pex
@@ -23,16 +23,19 @@ class Mob:
         self.name = name
         self.etat = "Normal"
         self.pv = 100
+        self.mpv = 100
         self.pm = 100
-        self.end = 100
-        self.atk_phy = 100
-        self.atk_mag = 100
-        self.def_phy = 100
-        self.def_mag = 100
-        self.vit = 100
-        self.pre = 100
+        self.mpm = 100
+        self.endurance = 100
+        self.mendurance = 100
+        self.attaque_physique = 100
+        self.attaque_magique = 100
+        self.def_physique = 100
+        self.def_magique = 100
+        self.vitesse = 100
+        self.precision = 100
         self.esquive = 100
-        self.crit = 0
+        self.critique = 0
         self.pex = lvl * random.randrange(10, 15, 1)
         self.lvl = lvl
 
@@ -42,15 +45,15 @@ class GobelinGeant(Mob):
         Mob.__init__(self, name, lvl)
         self.pv = 120
         self.pm = 55
-        self.end = 130
-        self.atk_phy = 85
-        self.atk_mag = 40
-        self.def_phy = 55
-        self.def_mag = 40
-        self.vit = 85
-        self.pre = 100
+        self.endurance = 130
+        self.attaque_physique = 85
+        self.attaque_magique = 40
+        self.def_physique = 55
+        self.def_magique = 40
+        self.vitesse = 85
+        self.precision = 100
         self.esquive = 100
-        self.crit = 0.15
+        self.critique = 0.15
         self.loot = random.randrange(16, 25, 1)
 
 
@@ -59,13 +62,13 @@ class Troll(Mob):
         Mob.__init__(self, name, lvl)
         self.pv = 140
         self.pm = 40
-        self.end = 75
-        self.atk_phy = 115
-        self.atk_mag = 50
-        self.def_phy = 120
-        self.def_mag = 80
-        self.vit = 70
-        self.pre = 100
+        self.endurance = 75
+        self.attaque_physique = 115
+        self.attaque_magique = 50
+        self.def_physique = 120
+        self.def_magique = 80
+        self.vitesse = 70
+        self.precision = 100
         self.esquive = 50
-        self.crit = 0.15
+        self.critique = 0.15
         self.loot = random.randrange(24, 37, 1)

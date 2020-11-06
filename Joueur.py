@@ -6,25 +6,22 @@ class Joueur:
         self.name = name
         self.classe = role
         self.etat = "Normal"
-        self.pv=100
-        self.pm=100
-        self.end=100
-        self.atk_phy=100
-        self.atk_mag=100
-        self.def_phy=100
-        self.def_mag=100
-        self.vit=100
-        self.pre=100
+        self.mpv=100
+        self.pv= self.mpv
+        self.mpm=100
+        self.pm= self.mpm
+        self.mendurance=100
+        self.endurance=self.mendurance
+        self.attaque_physique=100
+        self.attaque_magique=100
+        self.defense_physique=100
+        self.defense_magique=100
+        self.vitesse=100
+        self.precision=100
         self.esquive=100
-        self.crit=0
+        self.critique=0
         self.exp = 0
         self.lvl = 1
-
-        def _get_name(self):
-            return self._name
-
-        def _set_name(self,name):
-            self._name = name
 
 
 class Archer(Joueur):
@@ -32,14 +29,23 @@ class Archer(Joueur):
 	Initialise les stats spécifique au role Archer '''
     def __init__(self, name, role="Archer"):
         Joueur.__init__(self, name, role)
-        self.pv= 100
-        self.pm= 50
-        self.end= 100
-        self.atk_phy= 150
-        self.atk_mag= 80
-        self.def_phy= 80
-        self.def_mag= 75
-        self.vit= 120
-        self.pre= 145
+        self.mpm= 50
+        self.attaque_physique= 150
+        self.attaque_magique= 80
+        self.defense_physique= 80
+        self.defense_magique= 75
+        self.vitesse= 120
+        self.precision= 145
         self.esquive= 100
-        self.crit= 0.20
+        self.critique= 0.20
+
+
+class MageNoir(Joueur):
+    def __init__(self, name, role="Mage Noir"):
+        Joueur.__init__(self, name, role)
+        self.pm= 120
+        self.endurance= 80
+        self.attaque= 80
+        self.attaque_magique= 120
+        self.defense= 80
+        self.defense_magique= 120
