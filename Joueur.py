@@ -43,8 +43,8 @@ class Archer(Joueur):
 class MageNoir(Joueur):
     def __init__(self, name, role="Mage Noir"):
         Joueur.__init__(self, name, role)
-        self.pm= 120
-        self.endurance= 80
+        self.mpm= 120
+        self.mendurance= 80
         self.attaque= 80
         self.attaque_magique= 120
         self.defense= 80

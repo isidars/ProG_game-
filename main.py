@@ -51,5 +51,3 @@ print("Tu est donc '" + joueur.classe + "'. Tu rencontre un mob attention ! Ils 
 mob = Troll()
 
 combat(joueur, mob)
-
-

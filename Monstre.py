@@ -30,8 +30,8 @@ class Mob:
         self.mendurance = 100
         self.attaque_physique = 100
         self.attaque_magique = 100
-        self.def_physique = 100
-        self.def_magique = 100
+        self.defense_physique = 100
+        self.defense_magique = 100
         self.vitesse = 100
         self.precision = 100
         self.esquive = 100
@@ -43,13 +43,13 @@ class Mob:
 class GobelinGeant(Mob):
     def __init__(self, name="Gobelin geant", lvl=1):
         Mob.__init__(self, name, lvl)
-        self.pv = 120
-        self.pm = 55
-        self.endurance = 130
+        self.mpv = 120
+        self.mpm = 55
+        self.mendurance = 130
         self.attaque_physique = 85
         self.attaque_magique = 40
-        self.def_physique = 55
-        self.def_magique = 40
+        self.defense_physique = 55
+        self.defense_magique = 40
         self.vitesse = 85
         self.precision = 100
         self.esquive = 100
@@ -60,13 +60,30 @@ class GobelinGeant(Mob):
 class Troll(Mob):
     def __init__(self, name="Troll", lvl=1):
         Mob.__init__(self, name, lvl)
-        self.pv = 140
-        self.pm = 40
-        self.endurance = 75
+        self.mpv = 140
+        self.ppm = 40
+        self.mendurance = 75
         self.attaque_physique = 115
         self.attaque_magique = 50
-        self.def_physique = 120
-        self.def_magique = 80
+        self.defense_physique = 120
+        self.defense_magique = 80
+        self.vitesse = 70
+        self.precision = 100
+        self.esquive = 50
+        self.critique = 0.15
+        self.loot = random.randrange(24, 37, 1)
+
+
+class TrollG(Mob):
+    def __init__(self, name="TrollG", lvl=1):
+        Mob.__init__(self, name, lvl)
+        self.mpv = 200
+        self.ppm = 40
+        self.mendurance = 75
+        self.attaque_physique = 200
+        self.attaque_magique = 50
+        self.defense_physique = 500
+        self.defense_magique = 80
         self.vitesse = 70
         self.precision = 100
         self.esquive = 50
