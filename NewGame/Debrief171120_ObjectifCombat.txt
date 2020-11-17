@@ -1,0 +1,16 @@
+Objectif defini lors de la réunion du 17/11/2020:
+
+Créer un 1er combat fonctionnel simple:
+	-Avec 2 Joueurs
+	-1 Mob 
+	-Prenant en compte toutes les stats définies (PV,PM,ATQ,DEF,MAGIE,VITESSE,PRECISION,ESQUIVE,ENDURANCE)
+	-Equilibré
+	-La vitesse influe sur l'initiative avec un système de cumul/tour (voir si influencé par utilisation de compétences/magies)
+	-Etudier un calcul sur le taux de précision/esquive
+	
+
+
+A voir pour plus tard :
+	-Les différents Etats
+	-Leveling/XP
+	-Objets/compétences/magies/équipements
