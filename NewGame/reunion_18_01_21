@@ -1,0 +1,18 @@
+Menu Accueil ==> Création Joueurs (x2) ==> Affichage fiche joueurs
+
+Statistiques :
+Joueur                                     Monstre
+PV = 100 ;                                 PV = 70 ;
+ATTAQUE = 10 ;                             ATTAQUE = 7 ;
+DEFENSE = 10 ;                             DEFENSE = 7 ;
+ENDURANCE = 50 ;                           ENDURANCE = 50 ;
+
+Combat :
+Joueur
+  Menu Action [Attaque] ==> Choix de cibles ==> Exécution de l'Action ==> Résultat Action
+              [Soin]
+            
+  Par [Attaque] -5 ENDURANCE
+
+Monstre
+  IDEM : affichage direct Résultat
