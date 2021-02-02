@@ -1,53 +1,20 @@
-from Fonction import *
-from Joueur import *
-from Monstre import *
-mob =""
-nom =""
-choix_role =10
-joueur = Joueur(name=nom, role=choix_role)
+from players import *
 
+print("""Salut étranger, tu nous rejoins toi aussi pour la gloire et l'argent je suppose..
+Ce n'est pas bien grave, nous avons besoin de main d'oeuvre de toute manière,
+Je te fait le topo, alors nous sommes attaqués par qulques sale bête mais personne n'est au village..
+Aide nous et tu sera récompensé !
 
-print("Bonjour, jeune homme. Tu viens d'arrivé ?")
-nom = choix_nom()
-verification_nom = verif_nom(nom)
-
-while verification_nom.lower() == "non":
-    nom = choix_nom()
-    verif_nom = verif_nom(nom)
-
-
-print("D'accord, et quel type de combattant est-tu étranger ?")
-print("""
-1. Tank;
-2. Archer;
-3. Guerrier;
-4. Mage Blanc;
-5. Mage Noir;
-6. Assassin;
+Tout d'abord, comment t'appel-tu ?
 """)
+pseudo = []
+pseudo_c = input("Pseudo : ")
+pseudo.append(pseudo_c)
 
-while choix_role > 6:
-    try:
-        choix_role = int(input())
-    except ValueError:
-        print("Vous n'avez pas entrée le bonne indice de rôle")
+print("Et bien enchanté", pseudo[0], "!")
+pseudo[0] = Archer(pseudo[0])
+mob = 'gob'
+mob = Mob(mob)
+print(pseudo[0].name)
+print(pseudo[0].Attaquer(mob))
 
-
-if choix_role == 1:
-    joueur = Tank(nom)
-elif choix_role == 2:
-    joueur = Archer(nom)
-elif choix_role == 3:
-    joueur = Guerrier(nom)
-elif choix_role == 4:
-    joueur = MageBlanc(nom)
-elif choix_role == 5:
-    joueur = MageNoir(nom)
-elif choix_role == 6:
-    joueur = Assassin(nom)
-
-
-print("Tu est donc '" + joueur.classe + "'. Tu rencontre un mob attention ! Ils sont très dangereux")
-mob = Troll()
-
-combat(joueur, mob)
