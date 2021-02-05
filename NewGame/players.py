@@ -31,32 +31,33 @@ class Joueur:
 
     def Combattre(self, joueur):
         #Creation fonction affichage joueurs lors d'un combat
-        def AffJoueur():
-            for i in range(len(joueur)):
-                while joueur[i].pv > 0:
-                    print("[{}] {}pv".format(joueur[i].name, joueur[i].pv))
+        def AffJoueur(joueurs):
+            for i in range(len(joueurs)):
+                if joueurs[i].pv > 0:
+                    print("[{}] {}pv".format(joueurs[i].name, joueurs[i].pv))
 
         #Affichage des joueurs au début du combat
-                AffJoueur()
-                while joueur[i].pv > 0:
-                    x = 0
-                    while x > 4 or x < 1:
-                        try:
-                            x = int(input("Renseigner l'action à faire :\n1.Attaquer\n2.Magie\n3.Objet\n4.Fuite"))
-                     except:
-                           print("Veuillez choisir une action valide")
+        #AffJoueur(joueur)
+        for i in range(len(joueur)):
+            while joueur[i].pv > 0:
+                x = 0
+                while x > 4 or x < 1:
+                    try:
+                        x = int(input("Renseigner l'action à faire :\n1.Attaquer\n2.Magie\n3.Objet\n4.Fuite"))
+                    except:
+                        print("Veuillez choisir une action valide")
                         x = 0
-
                 if x == 1:
-                    print("Quel joueur voulez-vous toucher ?\n", joueur)
+                    print("Quel joueur voulez-vous toucher ?\n")
                     target = 999999
-                    print(joueur)
-                    while target < 0 and target > len(joueur):
+                    AffJoueur(joueur)
+
+                    while target < 0 or target > len(joueur):
                         try:
                             target = int(input(">>"))
                         except:
                             print("Veuillez renseigner un ennemie valide")
-                    self.Attaquer(joueur[target])
+                    joueur[i].Attaquer(joueur[target])
             else:
                 print(joueur[i].name, " est mort")
 
